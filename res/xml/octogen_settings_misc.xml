@@ -24,6 +24,11 @@
              android:fragment="com.octogen.settings.fragments.WakeLockBlocker"
              android:title="@string/wakelock_blocker_title" />
 
+        <Preference
+             android:id="@+id/alarm_blocker"
+             android:fragment="com.octogen.settings.fragments.AlarmBlocker"
+             android:title="@string/alarm_blocker" />
+
         <com.octogen.settings.preferences.SystemSettingSwitchPreference
             android:key="mtp_dirty_hack"
             android:title="@string/enable_mtp_dirtyhack_title"
