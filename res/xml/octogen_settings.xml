@@ -88,4 +88,11 @@
             android:fragment="com.octogen.settings.fragments.MiscSettings"
             android:icon="@drawable/ic_settings_miscs"/>
 
+        <!-- About -->
+        <Preference
+            android:key="about_category"
+            android:title="@string/about_title" 
+            android:fragment="com.octogen.settings.fragments.AboutSettings"
+            android:icon="@drawable/ic_settings_about"/>
+
 </PreferenceScreen>

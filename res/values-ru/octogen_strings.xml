@@ -31,6 +31,7 @@
     <string name="statusbar_title">Строка состояния</string>
     <string name="volume_title">Кнопки громкости</string>
     <string name="notifications_title">Уведомления</string>
+    <string name="about_title">О Octogen OS</string>
 
     <!-- General strings -->
     <string name="ok">Ок</string>
