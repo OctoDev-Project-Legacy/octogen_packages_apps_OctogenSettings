@@ -18,8 +18,38 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+        <!-- Octogen OS Logo Header -->
+        <Preference android:key="octogen_logo"
+            style="?android:preferenceInformationStyle"
+            android:layout="@layout/octogen_logo_alpha" />
+
+        <!-- Build Version -->
+        <Preference android:key="build_version"
+            style="?android:preferenceInformationStyle"
+            android:title="@string/build_version"
+            android:summary="@string/build_version_default" />
+
+        <!-- Build Type (OFFICIAL/UNOFFICIAL) -->
+        <Preference android:key="build_type"
+            style="?android:preferenceInformationStyle"
+            android:title="@string/build_type"
+            android:summary="@string/build_type_default" />
+
+        <!-- Build date -->
+        <Preference android:key="build_date"
+            style="?android:preferenceInformationStyle"
+            android:title="@string/build_date"
+            android:summary="@string/build_date_default" />
+	    
+        <!-- Build User -->
+        <Preference android:key="build_user"
+            style="?android:preferenceInformationStyle"
+            android:title="@string/build_user"
+            android:summary="@string/build_user_default" />
+
         <!-- Changelog -->
-        <PreferenceScreen android:key="octogen_changelog"
+        <Preference android:key="octogen_changelog"
+            style="?android:preferenceInformationStyle"
             android:title="@string/changelog_title"
             android:summary="@string/changelog_summary"
             android:fragment="com.octogen.settings.Changelog" />

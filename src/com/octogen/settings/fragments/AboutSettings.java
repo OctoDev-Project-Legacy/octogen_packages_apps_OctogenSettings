@@ -23,8 +23,15 @@ import com.android.settings.R;
 
 import com.android.settings.SettingsPreferenceFragment;
 
+import android.os.SystemProperties;
+
 public class AboutSettings extends SettingsPreferenceFragment {
 
+    private static final String KEY_OCTOGEN_LOGO = "octogen_logo";
+    private static final String KEY_OCTOGEN_BUILD_DATE = "build_date";
+    private static final String KEY_OCTOGEN_BUILD_TYPE = "build_type";
+    private static final String KEY_OCTOGEN_BUILD_USER = "build_user";
+    private static final String KEY_OCTOGEN_BUILD_VERSION = "build_version";
     private static final String KEY_OCTOGEN_CHANGELOG = "octogen_changelog";
 
     @Override
@@ -33,7 +40,22 @@ public class AboutSettings extends SettingsPreferenceFragment {
 
         addPreferencesFromResource(R.xml.octogen_settings_about);
 
+	findPreference(KEY_OCTOGEN_LOGO).setEnabled(true);
+        setValueSummary(KEY_OCTOGEN_BUILD_DATE, "ro.build.date");
+	setValueSummary(KEY_OCTOGEN_BUILD_USER, "ro.build.user");
+	setValueSummary(KEY_OCTOGEN_BUILD_VERSION, "ro.octogen.version");
+	setValueSummary(KEY_OCTOGEN_BUILD_TYPE, "ro.octogen.type");
         findPreference(KEY_OCTOGEN_CHANGELOG).setEnabled(true);
+    }
+
+    private void setValueSummary(String preference, String property) {
+        try {
+            findPreference(preference).setSummary(
+                    SystemProperties.get(property, 
+                            getResources().getString(R.string.device_info_default)));
+        } catch (RuntimeException e) {
+
+        }
     }
 
     @Override

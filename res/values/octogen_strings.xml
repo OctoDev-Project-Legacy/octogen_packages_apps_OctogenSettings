@@ -32,7 +32,15 @@
     <string name="notifications_title">Notifications</string>
     <string name="about_title">About Octogen OS</string>
 
-    <!-- Changelog -->
+    <!-- About settings -->
+    <string name="build_version">Build version</string>
+    <string name="build_version_default">0</string>
+    <string name="build_type">Build type</string>
+    <string name="build_type_default">Unknown</string>
+    <string name="build_date">Build date</string>
+    <string name="build_date_default">2018-01-01-0000</string>
+    <string name="build_user">Build User</string>
+    <string name="build_user_default">Android</string>
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Since the last update</string>
     <string name="changelog_error">Unable to load changelog</string>
