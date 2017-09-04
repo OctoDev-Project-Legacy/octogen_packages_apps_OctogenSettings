@@ -25,11 +25,15 @@ import com.android.settings.SettingsPreferenceFragment;
 
 public class AboutSettings extends SettingsPreferenceFragment {
 
+    private static final String KEY_OCTOGEN_CHANGELOG = "octogen_changelog";
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
         addPreferencesFromResource(R.xml.octogen_settings_about);
+
+        findPreference(KEY_OCTOGEN_CHANGELOG).setEnabled(true);
     }
 
     @Override

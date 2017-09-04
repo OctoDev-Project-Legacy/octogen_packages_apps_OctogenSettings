@@ -18,4 +18,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+        <!-- Changelog -->
+        <PreferenceScreen android:key="octogen_changelog"
+            android:title="@string/changelog_title"
+            android:summary="@string/changelog_summary"
+            android:fragment="com.octogen.settings.Changelog" />
+
 </PreferenceScreen>

@@ -33,6 +33,11 @@
     <string name="notifications_title">Уведомления</string>
     <string name="about_title">О Octogen OS</string>
 
+    <!-- Changelog -->
+    <string name="changelog_title">Список изменений</string>
+    <string name="changelog_summary">С момента последнего обновления</string>
+    <string name="changelog_error">Не удается загрузить список изменений</string>
+
     <!-- General strings -->
     <string name="ok">Ок</string>
     <string name="reset">Сброс</string>
