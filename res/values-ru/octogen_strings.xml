@@ -82,5 +82,8 @@
 
     <string name="double_tap_sleep_lockscreen_title">Экран блокировки</string>
     <string name="double_tap_sleep_lockscreen_summary">Дважды коснитесь нижней части экрана блокировки для перевода устройства в спящий режим</string>
+    
+    <string name="status_bar_quick_qs_pulldown_title">Быстрый доступ</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Правый угол строки состояния открывает панель быстрых настроек</string>
 
 </resources>
