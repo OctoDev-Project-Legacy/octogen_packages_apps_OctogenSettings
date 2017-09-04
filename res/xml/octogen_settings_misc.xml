@@ -22,17 +22,20 @@
         <Preference
              android:key="wakelock_blocker"
              android:fragment="com.octogen.settings.fragments.WakeLockBlocker"
-             android:title="@string/wakelock_blocker_title" />
+             android:title="@string/wakelock_blocker_title"
+	     android:icon="@drawable/ic_settings_wakelocks" />
 
         <Preference
              android:id="@+id/alarm_blocker"
              android:fragment="com.octogen.settings.fragments.AlarmBlocker"
-             android:title="@string/alarm_blocker" />
+             android:title="@string/alarm_blocker"
+	     android:icon="@drawable/ic_settings_alarmblock" />
 
         <com.octogen.settings.preferences.SystemSettingSwitchPreference
             android:key="mtp_dirty_hack"
             android:title="@string/enable_mtp_dirtyhack_title"
             android:summary="@string/enable_mtp_dirtyhack_summary"
-            android:defaultValue="true" />
+            android:defaultValue="true"
+	    android:icon="@drawable/ic_settings_mtp" />
 
 </PreferenceScreen>
