@@ -92,4 +92,10 @@
     <!-- Media art -->
     <string name="media_art_title">Медиа-обложка</string>
     <string name="media_art_summary">Включение медиа-обложки на экране блокировки</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Включить фонарик кнопкой включения</string>
+    <string name="torch_power_button_gesture_none">Отключено</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие включит фонарик</string>
+    <string name="torch_power_button_gesture_lp">Долгое нажатие включит фонарик</string>
 </resources>
