@@ -108,5 +108,10 @@
     
     <!-- Launch music player when headset is connected -->
     <string name="headset_connect_player_title">Запустить плеер</string>
-    <string name="headset_connect_player_summary">Запускать плеер при подключении гарнитуры</string>
+    <string name="headset_connect_player_disabled">Отключено</string>
+    <string name="headset_connect_player_wired">Когда проводная гарнитура подключена</string>
+    <string name="headset_connect_player_bt_no_carkit">Когда гарнитура BT (без каркита) подключена</string>
+    <string name="headset_connect_player_bt">Когда гарнитура BT подключена</string>
+    <string name="headset_connect_player_both_no_carkit">Когда проводная или BT-гарнитура (без каркита) подключена</string>
+    <string name="headset_connect_player_both">Когда проводная или BT-гарнитура подключена</string>
 </resources>
