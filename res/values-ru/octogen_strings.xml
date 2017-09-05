@@ -105,4 +105,8 @@
     <string name="torch_power_button_gesture_none">Отключено</string>
     <string name="torch_power_button_gesture_dt">Двойное нажатие включит фонарик</string>
     <string name="torch_power_button_gesture_lp">Долгое нажатие включит фонарик</string>
+    
+    <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">Запустить плеер</string>
+    <string name="headset_connect_player_summary">Запускать плеер при подключении гарнитуры</string>
 </resources>

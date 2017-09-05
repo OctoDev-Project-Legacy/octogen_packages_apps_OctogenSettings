@@ -38,4 +38,10 @@
             android:defaultValue="true"
 	    android:icon="@drawable/ic_settings_mtp" />
 
+    <com.octogen.settings.preferences.SystemSettingSwitchPreference
+        android:key="headset_connect_player"
+        android:title="@string/headset_connect_player_title"
+        android:summary="@string/headset_connect_player_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
