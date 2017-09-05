@@ -18,25 +18,4 @@
 	android:title="@string/notifications_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <com.octogen.settings.preferences.SystemSettingSwitchPreference
-        android:key="battery_light_allow_on_dnd"
-        android:title="@string/battery_light_allow_on_dnd_title"
-        android:defaultValue="false" />
-
-    <com.octogen.settings.preferences.SystemSettingSwitchPreference
-        android:key="battery_light_low_blinking"
-        android:title="@string/battery_light_low_blinking_title"
-        android:defaultValue="false" />
-
-    <PreferenceCategory
-        android:key="octogen_leds"
-        android:title="@string/octogen_leds" >
-
-        <Preference
-            android:key="octogen_charging_light"
-            android:fragment="com.octogen.settings.BatteryLightSettings"
-            android:title="@string/octogen_battery_light_settings" />
-
-    </PreferenceCategory>
-
 </PreferenceScreen>

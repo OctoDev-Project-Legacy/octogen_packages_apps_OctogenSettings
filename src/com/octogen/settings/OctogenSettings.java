@@ -22,36 +22,19 @@ import android.app.Activity;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.os.Bundle;
-import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceCategory;
 import android.view.Surface;
-import android.support.v7.preference.*;
+import android.preference.Preference;
 import com.android.settings.R;
 
 import com.android.settings.SettingsPreferenceFragment;
 
 public class OctogenSettings extends SettingsPreferenceFragment {
 
-    private PreferenceCategory mLedsCategory;
-    private Preference mChargingLeds;
-
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
         addPreferencesFromResource(R.xml.octogen_settings);
-        PreferenceScreen prefSet = getPreferenceScreen();
-
-        mLedsCategory = (PreferenceCategory) findPreference("octogen_leds");
-        mChargingLeds = (Preference) findPreference("octogen_charging_light");
-        if (mChargingLeds != null
-                && !getResources().getBoolean(
-                        com.android.internal.R.bool.config_intrusiveBatteryLed)) {
-            mLedsCategory.removePreference(mChargingLeds);
-        }
-        if (mChargingLeds == null) {
-            prefSet.removePreference(mLedsCategory);
-        }
     }
 
     @Override

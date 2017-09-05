@@ -114,15 +114,4 @@
     <string name="headset_connect_player_bt">Когда гарнитура BT подключена</string>
     <string name="headset_connect_player_both_no_carkit">Когда проводная или BT-гарнитура (без каркита) подключена</string>
     <string name="headset_connect_player_both">Когда проводная или BT-гарнитура подключена</string>
-
-    <!-- Battery light -->
-    <string name="octogen_leds">Индикация</string>
-    <string name="octogen_battery_light_settings">Настройки индикатора батареи</string>
-    <string name="battery_light_allow_on_dnd_title">Индикатор заряда батареи в режиме «Не беспокоить»</string>
-    <string name="battery_light_low_blinking_title">Мигать при низком заряде батареи</string>
-    <string name="battery_light_cat">Цверт зарядки батареи</string>
-    <string name="battery_light_low_color">Батарея разряжена</string>
-    <string name="battery_light_medium_color">Батарея почти заряжена</string>
-    <string name="battery_light_full_color">Батарея заряжена</string>
-
 </resources>
