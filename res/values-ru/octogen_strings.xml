@@ -114,4 +114,15 @@
     <string name="headset_connect_player_bt">Когда гарнитура BT подключена</string>
     <string name="headset_connect_player_both_no_carkit">Когда проводная или BT-гарнитура (без каркита) подключена</string>
     <string name="headset_connect_player_both">Когда проводная или BT-гарнитура подключена</string>
+
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Показывать кнопку \"Очистить всё\"</string>
+    <string name="show_clear_all_recents_button_summary">Показывать кнопку \"Очистить всё\" в \"Недавних приложениях\"</string>
+    <string name="recents_clear_all_location_title">Расположение кнопки \"Очистить всё\"</string>
+    <string name="recents_clear_all_location_top_right">Вверху справа</string>
+    <string name="recents_clear_all_location_top_left">Вверху слева</string>
+    <string name="recents_clear_all_location_top_center">Вверху по центру</string>
+    <string name="recents_clear_all_location_bottom_right">Внизу справа</string>
+    <string name="recents_clear_all_location_bottom_left">Внизу слева</string>
+    <string name="recents_clear_all_location_bottom_center">Внизу по центру</string>
 </resources>
