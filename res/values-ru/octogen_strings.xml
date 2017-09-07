@@ -36,6 +36,7 @@
     <!-- About settings -->
     <string name="build_version">Версия сборки</string>
     <string name="build_type">Тип сборки</string>
+    <string name="dev_stage_title">Стадия разработки</string>
     <string name="build_date">Дата сборки</string>
     <string name="build_user">Сборку собрал</string>
     <string name="thanks_title">Благодарности</string>

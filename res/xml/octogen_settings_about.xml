@@ -35,6 +35,12 @@
             android:title="@string/build_type"
             android:summary="@string/build_type_default" />
 
+        <!-- Development stage (STABLE/TESTING) -->
+        <Preference android:key="dev_stage"
+            style="?android:preferenceInformationStyle"
+            android:title="@string/dev_stage_title"
+            android:summary="@string/dev_stage_summary" />
+
         <!-- Build date -->
         <Preference android:key="build_date"
             style="?android:preferenceInformationStyle"

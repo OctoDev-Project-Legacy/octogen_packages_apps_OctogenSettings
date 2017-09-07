@@ -37,6 +37,8 @@
     <string name="build_version_default">0</string>
     <string name="build_type">Build type</string>
     <string name="build_type_default">Unknown</string>
+    <string name="dev_stage_title">Development stage</string>
+    <string name="dev_stage_summary">Stable</string>
     <string name="build_date">Build date</string>
     <string name="build_date_default">2018-01-01-0000</string>
     <string name="build_user">Build User</string>
