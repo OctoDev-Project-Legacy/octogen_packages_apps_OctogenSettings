@@ -38,6 +38,8 @@
     <string name="build_type">Тип сборки</string>
     <string name="build_date">Дата сборки</string>
     <string name="build_user">Сборку собрал</string>
+    <string name="thanks_title">Благодарности</string>
+    <string name="thanks_summary">Чьи работы используются в этом роме</string>
     <string name="changelog_title">Список изменений</string>
     <string name="changelog_summary">С момента последнего обновления</string>
     <string name="changelog_error">Не удается загрузить список изменений</string>

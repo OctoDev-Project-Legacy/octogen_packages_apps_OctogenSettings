@@ -41,6 +41,8 @@
     <string name="build_date_default">2018-01-01-0000</string>
     <string name="build_user">Build User</string>
     <string name="build_user_default">Android</string>
+    <string name="thanks_title">Thanks</string>
+    <string name="thanks_summary">Whose work is used in this ROM.</string>
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Since the last update</string>
     <string name="changelog_error">Unable to load changelog</string>

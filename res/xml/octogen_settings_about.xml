@@ -47,6 +47,14 @@
             android:title="@string/build_user"
             android:summary="@string/build_user_default" />
 
+        <!-- Thanks -->
+        <Preference
+            android:key="thanks_key"
+            style="?android:preferenceInformationStyle"
+            android:fragment="com.octogen.settings.fragments.ThanksSettings"
+            android:title="@string/thanks_title"
+            android:summary="@string/thanks_summary" />
+
         <!-- Changelog -->
         <Preference android:key="octogen_changelog"
             style="?android:preferenceInformationStyle"

@@ -32,6 +32,7 @@ public class AboutSettings extends SettingsPreferenceFragment {
     private static final String KEY_OCTOGEN_BUILD_TYPE = "build_type";
     private static final String KEY_OCTOGEN_BUILD_USER = "build_user";
     private static final String KEY_OCTOGEN_BUILD_VERSION = "build_version";
+    private static final String KEY_OCTOGEN_THANKS = "thanks_key";
     private static final String KEY_OCTOGEN_CHANGELOG = "octogen_changelog";
 
     @Override
@@ -45,6 +46,7 @@ public class AboutSettings extends SettingsPreferenceFragment {
 	setValueSummary(KEY_OCTOGEN_BUILD_USER, "ro.build.user");
 	setValueSummary(KEY_OCTOGEN_BUILD_VERSION, "ro.octogen.version");
 	setValueSummary(KEY_OCTOGEN_BUILD_TYPE, "ro.octogen.type");
+        findPreference(KEY_OCTOGEN_THANKS).setEnabled(true);
         findPreference(KEY_OCTOGEN_CHANGELOG).setEnabled(true);
     }
 

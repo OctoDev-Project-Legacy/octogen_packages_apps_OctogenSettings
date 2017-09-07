@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2017 OctoDev Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+        <Preference
+            android:key="thanks_1"
+            style="?android:preferenceInformationStyle"
+            android:title="arter" />
+        <Preference
+            android:key="thanks_2"
+            style="?android:preferenceInformationStyle"
+            android:title="AdrianDC" />
+        <Preference
+            android:key="thanks_3"
+            style="?android:preferenceInformationStyle"
+            android:title="sultanxda" />
+        <Preference
+            android:key="thanks_4"
+            style="?android:preferenceInformationStyle"
+            android:title="xdevs23" />
+        <Preference
+            android:key="thanks_5"
+            style="?android:preferenceInformationStyle"
+            android:title="jhenrique09" />
+        <Preference
+            android:key="thanks_6"
+            style="?android:preferenceInformationStyle"
+            android:title="beanstown106" />
+        <Preference
+            android:key="thanks_7"
+            style="?android:preferenceInformationStyle"
+            android:title="invisiblek" />
+        <Preference
+            android:key="thanks_8"
+            style="?android:preferenceInformationStyle"
+            android:title="luca020400" />
+        <Preference
+            android:key="thanks_9"
+            style="?android:preferenceInformationStyle"
+            android:title="Cl3Kener" />
+        <Preference
+            android:key="thanks_10"
+            style="?android:preferenceInformationStyle"
+            android:title="mik9" />
+        <Preference
+            android:key="thanks_11"
+            style="?android:preferenceInformationStyle"
+            android:title="elektroschmock" />
+        <Preference
+            android:key="thanks_12"
+            style="?android:preferenceInformationStyle"
+            android:title="Stefano" />
+        <Preference
+            android:key="thanks_13"
+            style="?android:preferenceInformationStyle"
+            android:title="mikeNG" />
+        <Preference
+            android:key="thanks_14"
+            style="?android:preferenceInformationStyle"
+            android:title="cyanogen" />
+        <Preference
+            android:key="thanks_15"
+            style="?android:preferenceInformationStyle"
+            android:title="tdmcyngn" />
+        <Preference
+            android:key="thanks_16"
+            style="?android:preferenceInformationStyle"
+            android:title="maniac103" />
+        <Preference
+            android:key="thanks_17"
+            style="?android:preferenceInformationStyle"
+            android:title="jsuncyngn" />
+        <Preference
+            android:key="thanks_18"
+            style="?android:preferenceInformationStyle"
+            android:title="rmcc" />
+        <Preference
+            android:key="thanks_19"
+            style="?android:preferenceInformationStyle"
+            android:title="Bernhard Rosenkränzer" />
+        <Preference
+            android:key="thanks_20"
+            style="?android:preferenceInformationStyle"
+            android:title="morckx" />
+        <Preference
+            android:key="thanks_21"
+            style="?android:preferenceInformationStyle"
+            android:title="sam3000" />
+        <Preference
+            android:key="thanks_22"
+            style="?android:preferenceInformationStyle"
+            android:title="Scott Mertz" />
+        <Preference
+            android:key="thanks_23"
+            style="?android:preferenceInformationStyle"
+            android:title="tdm" />
+        <Preference
+            android:key="thanks_24"
+            style="?android:preferenceInformationStyle"
+            android:title="maxwen" />
+        <Preference
+            android:key="thanks_25"
+            style="?android:preferenceInformationStyle"
+            android:title="Rock Yeh" />
+        <Preference
+            android:key="thanks_26"
+            style="?android:preferenceInformationStyle"
+            android:title="roozbehp" />
+        <Preference
+            android:key="thanks_27"
+            style="?android:preferenceInformationStyle"
+            android:title="Alex Cruz" />
+        <Preference
+            android:key="thanks_28"
+            style="?android:preferenceInformationStyle"
+            android:title="Aravind Asam" />
+        <Preference
+            android:key="thanks_29"
+            style="?android:preferenceInformationStyle"
+            android:title="kaiyiz" />
+        <Preference
+            android:key="thanks_30"
+            style="?android:preferenceInformationStyle"
+            android:title="yrohit" />
+        <Preference
+            android:key="thanks_31"
+            style="?android:preferenceInformationStyle"
+            android:title="yingying" />
+        <Preference
+            android:key="thanks_32"
+            style="?android:preferenceInformationStyle"
+            android:title="Mazda--" />
+        <Preference
+            android:key="thanks_33"
+            style="?android:preferenceInformationStyle"
+            android:title="Rajaram Gudivada" />
+        <Preference
+            android:key="thanks_34"
+            style="?android:preferenceInformationStyle"
+            android:title="intervigilium" />
+        <Preference
+            android:key="thanks_35"
+            style="?android:preferenceInformationStyle"
+            android:title="Steve Kondik" />
+        <Preference
+            android:key="thanks_36"
+            style="?android:preferenceInformationStyle"
+            android:title="pawitp" />
+        <Preference
+            android:key="thanks_37"
+            style="?android:preferenceInformationStyle"
+            android:title="KonstaT" />
+        <Preference
+            android:key="thanks_38"
+            style="?android:preferenceInformationStyle"
+            android:title="nadlabak" />
+        <Preference
+            android:key="thanks_39"
+            style="?android:preferenceInformationStyle"
+            android:title="NBruderman" />
+        <Preference
+            android:key="thanks_40"
+            style="?android:preferenceInformationStyle"
+            android:title="tobigun" />
+        <Preference
+            android:key="thanks_41"
+            style="?android:preferenceInformationStyle"
+            android:title="Ping.Sun" />
+        <Preference
+            android:key="thanks_42"
+            style="?android:preferenceInformationStyle"
+            android:title="TakeshiTanigawa" />
+        <Preference
+            android:key="thanks_43"
+            style="?android:preferenceInformationStyle"
+            android:title="ciwrl" />
+        <Preference
+            android:key="thanks_44"
+            style="?android:preferenceInformationStyle"
+            android:title="nebkat" />
+        <Preference
+            android:key="thanks_45"
+            style="?android:preferenceInformationStyle"
+            android:title="chirayudesai" />
+        <Preference
+            android:key="thanks_46"
+            style="?android:preferenceInformationStyle"
+            android:title="nivlafx" />
+        <Preference
+            android:key="thanks_47"
+            style="?android:preferenceInformationStyle"
+            android:title="Entropy512" />
+        <Preference
+            android:key="thanks_48"
+            style="?android:preferenceInformationStyle"
+            android:title="jumoog" />
+        <Preference
+            android:key="thanks_49"
+            style="?android:preferenceInformationStyle"
+            android:title="MrApocalypse" />
+        <Preference
+            android:key="thanks_50"
+            style="?android:preferenceInformationStyle"
+            android:title="darkobas" />
+        <Preference
+            android:key="thanks_51"
+            style="?android:preferenceInformationStyle"
+            android:title="xyyx" />
+        <Preference
+            android:key="thanks_52"
+            style="?android:preferenceInformationStyle"
+            android:title="ezio84" />
+        <Preference
+            android:key="thanks_53"
+            style="?android:preferenceInformationStyle"
+            android:title="nathanchance" />
+        <Preference
+            android:key="thanks_54"
+            style="?android:preferenceInformationStyle"
+            android:title="koush" />
+        <Preference
+            android:key="thanks_55"
+            style="?android:preferenceInformationStyle"
+            android:title="KreAch3R" />
+        <Preference
+            android:key="thanks_56"
+            style="?android:preferenceInformationStyle"
+            android:title="Bolun Shan" />
+        <Preference
+            android:key="thanks_57"
+            style="?android:preferenceInformationStyle"
+            android:title="PMS22" />
+        <Preference
+            android:key="thanks_58"
+            style="?android:preferenceInformationStyle"
+            android:title="jianzhou" />
+        <Preference
+            android:key="thanks_59"
+            style="?android:preferenceInformationStyle"
+            android:title="Miao Miao (苗苗)" />
+        <Preference
+            android:key="thanks_60"
+            style="?android:preferenceInformationStyle"
+            android:title="Danesh" />
+        <Preference
+            android:key="thanks_61"
+            style="?android:preferenceInformationStyle"
+            android:title="codebuged" />
+        <Preference
+            android:key="thanks_62"
+            style="?android:preferenceInformationStyle"
+            android:title="Roman Royer" />
+        <Preference
+            android:key="thanks_63"
+            style="?android:preferenceInformationStyle"
+            android:title="romanbb" />
+        <Preference
+            android:key="thanks_64"
+            style="?android:preferenceInformationStyle"
+            android:title="defer" />
+        <Preference
+            android:key="thanks_65"
+            style="?android:preferenceInformationStyle"
+            android:title="nobe1976" />
+        <Preference
+            android:key="thanks_66"
+            style="?android:preferenceInformationStyle"
+            android:title="gianmarcorev" />
+        <Preference
+            android:key="thanks_67"
+            style="?android:preferenceInformationStyle"
+            android:title="lei.x.sun" />
+        <Preference
+            android:key="thanks_68"
+            style="?android:preferenceInformationStyle"
+            android:title="widewing" />
+        <Preference
+            android:key="thanks_69"
+            style="?android:preferenceInformationStyle"
+            android:title="Tortel" />		
+        <Preference
+            android:key="thanks_70"
+            style="?android:preferenceInformationStyle"
+            android:title="0xD34D" />
+        <Preference
+            android:key="thanks_71"
+            style="?android:preferenceInformationStyle"
+            android:title="dwitherell" />
+        <Preference
+            android:key="thanks_72"
+            style="?android:preferenceInformationStyle"
+            android:title="kufikugel" />
+        <Preference
+            android:key="thanks_73"
+            style="?android:preferenceInformationStyle"
+            android:title="bigrushdog" />
+        <Preference
+            android:key="thanks_74"
+            style="?android:preferenceInformationStyle"
+            android:title="faust93" />
+        <Preference
+            android:key="thanks_75"
+            style="?android:preferenceInformationStyle"
+            android:title="AirOne70" />
+        <Preference
+            android:key="thanks_76"
+            style="?android:preferenceInformationStyle"
+            android:title="Maxime Poulain" />
+        <Preference
+            android:key="thanks_77"
+            style="?android:preferenceInformationStyle"
+            android:title="amartinz" />
+        <Preference
+            android:key="thanks_78"
+            style="?android:preferenceInformationStyle"
+            android:title="15characterlimi" />
+        <Preference
+            android:key="thanks_79"
+            style="?android:preferenceInformationStyle"
+            android:title="fusionjack" />
+        <Preference
+            android:key="thanks_80"
+            style="?android:preferenceInformationStyle"
+            android:title="Herna1994" />
+        <Preference
+            android:key="thanks_81"
+            style="?android:preferenceInformationStyle"
+            android:title="XXMrHyde" />
+        <Preference
+            android:key="thanks_82"
+            style="?android:preferenceInformationStyle"
+            android:title="drewis" />
+        <Preference
+            android:key="thanks_83"
+            style="?android:preferenceInformationStyle"
+            android:title="Erica Chang" />
+        <Preference
+            android:key="thanks_84"
+            style="?android:preferenceInformationStyle"
+            android:title="c_jyuan" />
+        <Preference
+            android:key="thanks_85"
+            style="?android:preferenceInformationStyle"
+            android:title="dhacker29" />
+        <Preference
+            android:key="thanks_86"
+            style="?android:preferenceInformationStyle"
+            android:title="frap129" />
+        <Preference
+            android:key="thanks_87"
+            style="?android:preferenceInformationStyle"
+            android:title="Snild-Sony" />
+        <Preference
+            android:key="thanks_88"
+            style="?android:preferenceInformationStyle"
+            android:title="mdmower" />
+        <Preference
+            android:key="thanks_89"
+            style="?android:preferenceInformationStyle"
+            android:title="cristianomatos" />
+        <Preference
+            android:key="thanks_90"
+            style="?android:preferenceInformationStyle"
+            android:title="BadDaemon" />
+        <Preference
+            android:key="thanks_91"
+            style="?android:preferenceInformationStyle"
+            android:title="neobuddy89" />
+        <Preference
+            android:key="thanks_92"
+            style="?android:preferenceInformationStyle"
+            android:title="Arusha Goyal" />
+        <Preference
+            android:key="thanks_93"
+            style="?android:preferenceInformationStyle"
+            android:title="Omprakash Dhyade" />
+        <Preference
+            android:key="thanks_94"
+            style="?android:preferenceInformationStyle"
+            android:title="Dilip Gudlur" />
+        <Preference
+            android:key="thanks_95"
+            style="?android:preferenceInformationStyle"
+            android:title="Jun Wang" />
+        <Preference
+            android:key="thanks_96"
+            style="?android:preferenceInformationStyle"
+            android:title="TheCrazyLex" />
+        <Preference
+            android:key="thanks_97"
+            style="?android:preferenceInformationStyle"
+            android:title="Sandeep Kunta" />
+        <Preference
+            android:key="thanks_98"
+            style="?android:preferenceInformationStyle"
+            android:title="Decad3nce" />
+        <Preference
+            android:key="thanks_99"
+            style="?android:preferenceInformationStyle"
+            android:title="Keith Mok" />
+
+</PreferenceScreen>
