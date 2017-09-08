@@ -21,7 +21,7 @@
         <!-- Octogen OS Logo Header -->
         <Preference android:key="octogen_logo"
             style="?android:preferenceInformationStyle"
-            android:layout="@layout/octogen_logo_alpha" />
+            android:layout="@layout/octogen_logo" />
 
         <!-- Build Version -->
         <Preference android:key="build_version"
