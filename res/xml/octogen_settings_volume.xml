@@ -41,4 +41,16 @@
         android:entries="@array/headset_connect_player_entries"
         android:entryValues="@array/headset_connect_player_values" />
 
+    <com.octogen.settings.preferences.SecureSettingSwitchPreference
+        android:key="sysui_volume_up_silent"
+        android:title="@string/volbtn_up_zen_title"
+        android:summary="@string/volbtn_up_zen_summary"
+        android:defaultValue="true"/>
+
+    <com.octogen.settings.preferences.SecureSettingSwitchPreference
+        android:key="sysui_volume_down_silent"
+        android:title="@string/volbtn_down_zen_title"
+        android:summary="@string/volbtn_down_zen_summary"
+        android:defaultValue="true"/>
+
 </PreferenceScreen>

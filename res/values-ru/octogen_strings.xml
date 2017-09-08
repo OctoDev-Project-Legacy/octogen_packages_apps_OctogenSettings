@@ -161,4 +161,22 @@
     <string name="power_menu_animation_bottom">Внизу</string>
     <string name="power_menu_animation_top">Сверху</string>
 
+    <!-- SysUI Tuner -->
+    <!-- Status Bar -->
+    <string name="statusbar_items_title">Настройка элементов</string>
+    <string name="power_notification_title">Расширенное управление уведомлениями</string>
+    <!-- Volume down enter do not disturb -->
+    <string name="volbtn_down_zen_title">Громкость вниз для \"Не беспокоить\"</string>
+    <string name="volbtn_down_zen_summary">Отключать режим \"Не беспокоить\" при уменьшении громкости</string>
+    <!-- Volume up exit do not disturb -->
+    <string name="volbtn_up_zen_title">Громкость вверх для \"Не беспокоить\"</string>
+    <string name="volbtn_up_zen_summary">Отключать режим \"Не беспокоить\" при увеличении громкости</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_title">Регулятор яркости</string>
+    <string name="qs_brightness_slider_summary">Показать регулятор яркости в панели быстрых настроек</string>
+    <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Ярлыки на экране блокировки</string>
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Кнопки на панели навигации</string>
+
 </resources>
