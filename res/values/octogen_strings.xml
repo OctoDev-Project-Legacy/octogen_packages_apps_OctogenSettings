@@ -148,4 +148,19 @@
     <string name="battery_light_full_color">High battery</string>
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
 
+    <string name="lockscreen_power_menu_disabled_title">Disable power menu when locked</string>
+    <string name="lockscreen_power_menu_disabled_summary">Disable power menu on secure lock screens</string>
+
+    <string name="global_actions_anim">Appearance</string>
+    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
+    <string name="global_actions_advanced_reboot_summary">Show more options in restart menu</string>
+    <string name="global_actions_advanced_reboot_summary_new">Show more options in restart menu if not locked</string>
+
+    <!-- Power menu Animations  -->
+    <string name="power_menu_animation_title">Power menu animation</string>
+    <string name="power_menu_animation_summary">Change the enter/exit animation of the power menu</string>
+    <string name="power_menu_animation_dialog_title">Select power menu animation</string>
+    <string name="power_menu_animation_enter">Default</string>
+    <string name="power_menu_animation_bottom">Bottom</string>
+    <string name="power_menu_animation_top">Top</string>
 </resources>

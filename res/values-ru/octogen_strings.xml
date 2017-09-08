@@ -146,4 +146,19 @@
     <string name="battery_light_full_color">Батарея заряжена</string>
     <string name="battery_light_reallyfull_color">Полностью заряжена (100%)</string>
 
+    <string name="lockscreen_power_menu_disabled_title">Отключить меню питания в экране блокировки</string>
+    <string name="lockscreen_power_menu_disabled_summary">Когда устройство заблокировано меню питания не отображается</string>
+
+    <string name="global_actions_anim">Внешность</string>
+    <string name="global_actions_advanced_reboot_title">Включить расширенную перезагрузку</string>
+    <string name="global_actions_advanced_reboot_summary">Включить расширенную перезагрузку</string>
+    <string name="global_actions_advanced_reboot_summary_new">Включить расширенную перезагрузку когда устройство не заблокировано</string>
+
+    <!-- Power menu Animations  -->
+    <string name="power_menu_animation_title">Анимация меню питания</string>
+    <string name="power_menu_animation_dialog_title">Выбрать анимацию меню питания</string>
+    <string name="power_menu_animation_enter">По умолчанию</string>
+    <string name="power_menu_animation_bottom">Внизу</string>
+    <string name="power_menu_animation_top">Сверху</string>
+
 </resources>
