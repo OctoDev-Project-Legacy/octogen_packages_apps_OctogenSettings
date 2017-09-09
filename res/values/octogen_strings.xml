@@ -184,4 +184,8 @@
 
     <string name="status_bar_logo_title">Status bar logo</string>
     <string name="status_bar_logo_summary">A little swag</string>
+
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
 </resources>

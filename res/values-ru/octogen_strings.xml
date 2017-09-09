@@ -181,4 +181,8 @@
 
     <string name="status_bar_logo_title">Логотип в статус баре</string>
     <string name="status_bar_logo_summary">Небольшая плюшка</string>
+
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Включить ПИН-код</string>
+    <string name="unlock_scramble_pin_layout_summary">Запросить ввод ПИН-кода после графического ключа</string>
 </resources>
