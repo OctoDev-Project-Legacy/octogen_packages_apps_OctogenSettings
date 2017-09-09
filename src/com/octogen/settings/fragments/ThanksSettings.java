@@ -126,6 +126,7 @@ public class ThanksSettings extends SettingsPreferenceFragment {
     private static final String KEY_OCTOGEN_THANKS_97 = "thanks_97";
     private static final String KEY_OCTOGEN_THANKS_98 = "thanks_98";
     private static final String KEY_OCTOGEN_THANKS_99 = "thanks_99";
+    private static final String KEY_OCTOGEN_THANKS_100 = "thanks_100";
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -232,6 +233,7 @@ public class ThanksSettings extends SettingsPreferenceFragment {
 	findPreference(KEY_OCTOGEN_THANKS_97).setEnabled(true);
 	findPreference(KEY_OCTOGEN_THANKS_98).setEnabled(true);
 	findPreference(KEY_OCTOGEN_THANKS_99).setEnabled(true);
+	findPreference(KEY_OCTOGEN_THANKS_100).setEnabled(true);
 	
     }
 

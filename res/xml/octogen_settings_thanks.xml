@@ -414,5 +414,9 @@
             android:key="thanks_99"
             style="?android:preferenceInformationStyle"
             android:title="Keith Mok" />
+        <Preference
+            android:key="thanks_100"
+            style="?android:preferenceInformationStyle"
+            android:title="mydongistiny" />
 
 </PreferenceScreen>
