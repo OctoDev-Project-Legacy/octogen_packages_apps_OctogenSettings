@@ -26,7 +26,7 @@
             android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
     </Preference>
 
-    <com.octogen.settings.preferences.SystemCheckBoxPreference
+    <com.octogen.settings.preferences.SystemSettingSwitchPreference
         android:key="status_bar_logo"
         android:title="@string/status_bar_logo_title"
         android:summary="@string/status_bar_logo_summary"/>
