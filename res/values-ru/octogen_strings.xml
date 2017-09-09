@@ -179,4 +179,6 @@
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Кнопки на панели навигации</string>
 
+    <string name="status_bar_logo_title">Логотип в статус баре</string>
+    <string name="status_bar_logo_summary">Небольшая плюшка</string>
 </resources>
