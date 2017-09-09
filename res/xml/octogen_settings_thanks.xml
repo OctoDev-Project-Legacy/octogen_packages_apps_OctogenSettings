@@ -418,5 +418,9 @@
             android:key="thanks_100"
             style="?android:preferenceInformationStyle"
             android:title="mydongistiny" />
+        <Preference
+            android:key="thanks_101"
+            style="?android:preferenceInformationStyle"
+            android:title="LorDClockaN" />
 
 </PreferenceScreen>
