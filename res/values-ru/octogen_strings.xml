@@ -185,4 +185,7 @@
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Включить ПИН-код</string>
     <string name="unlock_scramble_pin_layout_summary">Запросить ввод ПИН-кода после графического ключа</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка при вводе верного пароля/ПИН-кода</string>
 </resources>
