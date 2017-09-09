@@ -188,4 +188,7 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
     <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка при вводе верного пароля/ПИН-кода</string>
+    
+    <string name="toast_icon_title">Иконка у всплывающего уведомления</string>
+    <string name="toast_icon_summary">Отображать иконку у всплывающего уведомления</string>
 </resources>
