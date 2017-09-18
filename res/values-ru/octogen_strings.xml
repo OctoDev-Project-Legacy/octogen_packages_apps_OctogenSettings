@@ -15,43 +15,29 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
 
-  <string name="octogen_settings_title">Настройки Octogen OS</string>
+    <!--
+        ******************************************
+        App title
+        ******************************************
+    -->
+    <string name="octogen_settings_title">Настройки Octogen OS</string>
 
-  <!-- Categories -->
-    <string name="button_title">Аппаратные кнопки</string>
-    <string name="gestures_title">Жесты</string>
-    <string name="lockscreen_title">Экран блокировки</string>
-    <string name="misc_title">Разные настройки</string>
-    <string name="navbar_title">Панель навигации</string>
-    <string name="powermenu_title">Меню питания</string>
-    <string name="quicksettings_title">Панель быстрых настроек</string>
-    <string name="recents_title">Недавние приложения</string>
-    <string name="statusbar_title">Строка состояния</string>
-    <string name="volume_title">Кнопки громкости</string>
-    <string name="notifications_title">Уведомления</string>
-    <string name="about_title">О Octogen OS</string>
-
-    <!-- About settings -->
-    <string name="build_version">Версия сборки</string>
-    <string name="build_type">Тип сборки</string>
-    <string name="dev_stage_title">Стадия разработки</string>
-    <string name="build_date">Дата сборки</string>
-    <string name="build_user">Сборку собрал</string>
-    <string name="thanks_title">Благодарности</string>
-    <string name="thanks_summary">Чьи работы используются в этом роме</string>
-    <string name="changelog_title">Список изменений</string>
-    <string name="changelog_summary">С момента последнего обновления</string>
-    <string name="changelog_error">Не удается загрузить список изменений</string>
-
-    <!-- General strings -->
+    <!--
+        ******************************************
+        General strings
+        ******************************************
+    -->
     <string name="ok">Ок</string>
     <string name="reset">Сброс</string>
-    <string name="cancel">Отмена</string>
+    <string name="cancel">Закрыть</string>
     <string name="save">Сохранить</string>
 
-    <!-- Color picker -->
+    <!--
+        ******************************************
+        Color Picker
+        ******************************************
+    -->
     <string name="dialog_color_picker">Выбор цвета</string>
     <string name="press_color_to_apply">Нажмите на цвет, чтобы применить</string>
     <string name="hex">Hex:</string>
@@ -61,54 +47,41 @@
     <string name="set">Выбрать</string>
     <string name="color_default">По умолчанию</string>
 
-    <!-- MTP Dirty Hack -->
-    <string name="enable_mtp_dirtyhack_title">MTP вместо Зарядки</string>
-    <string name="enable_mtp_dirtyhack_summary">Включить MTP вместо Зарядки при подключении к ПК</string>
+    <!--
+        ******************************************
+        Status Bar
+        ******************************************
+    -->
+    <string name="statusbar_title">Строка состояния</string>
+    <string name="statusbar_items_title">Настройка элементов</string>
+	<string name="power_notification_title">Расширенное управление уведомлениями</string>
+    <string name="status_bar_logo_title">Логотип</string>
+    <string name="status_bar_logo_summary">Показывать логотип</string>
 
-    <!-- Wakelock blocker -->
-    <string name="wakelock_blocker_title">Блокировка *wakelocks*</string>
-    <string name="wakelock_blocker_summary">Заблокировать *wakelocks* системы</string>
-    <string name="wakelock_blocker_save">Сохранить</string>
-    <string name="wakelock_list_header">Доступные *wakelocks*</string>
-    <string name="wakelock_blocker_reload">Сбросить</string>
-    <string name="wakelock_blocker_warning_title">Продолжайте с осторожностью</string>
-    <string name="wakelock_blocker_warning">Блокировка *wakelocks* может вызвать нестабильную работу, краши и потерю данных</string>
-
-    <!-- Alarm blocker -->
-    <string name="alarm_blocker">Блокировка *alarms*</string>
-    <string name="alarm_blocker_title">Включено</string>
-    <string name="alarm_blocker_summary">Заблокировать *alarms* при выключенном экране</string>
-    <string name="alarm_blocker_save">Сохранить</string>
-    <string name="alarm_list_header">Доступные *alarms*</string>
-    <string name="alarm_blocker_reload">Перезагрузить</string>
-    <string name="alarm_blocker_warning_title">Продолжайте с осторожностью</string>
-    <string name="alarm_blocker_warning">Блокировка *alarms* может вызвать нестабильную работу, краши и потерю данных</string>
-
-    <string name="double_tap_sleep_navbar">Сон при двойном нажатии по панели навигации</string>
-    <string name="swap_volume_buttons">Автоповорот кнопок громкости</string>
-
-    <string name="double_tap_sleep_lockscreen_title">Экран блокировки</string>
-    <string name="double_tap_sleep_lockscreen_summary">Дважды коснитесь нижней части экрана блокировки для перевода устройства в спящий режим</string>
-    
+    <!-- 
+        ******************************************
+        Quick Settings panel
+        ******************************************
+    -->
+    <string name="quicksettings_title">Панель быстрых настроек</string>
     <string name="status_bar_quick_qs_pulldown_title">Быстрый доступ</string>
     <string name="status_bar_quick_qs_pulldown_summary">Правый угол строки состояния открывает панель быстрых настроек</string>
-    
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_title">Регулятор яркости</string>
+    <string name="qs_brightness_slider_summary">Показать регулятор яркости в панели быстрых настроек</string>
+
+    <!--
+        ******************************************
+        Buttons
+        ******************************************
+    -->
+    <string name="button_title">Аппаратные кнопки</string>
+    <string name="volume_title">Кнопки громкости</string>
+    <string name="swap_volume_buttons">Автоповорот кнопок громкости</string>
     <string name="volume_keys_control_media_stream_title">Управлять мультимедиа</string>
     <string name="volume_keys_control_media_stream_summary">Управлять медиа вместо системных звуков</string>
-
-    <string name="volume_rocker_music_controls_title">Управление музыкой</string>
-    <string name="volume_rocker_music_controls_summary">Управление музыкой через кнопки музыкой</string>
-
-    <!-- Media art -->
-    <string name="media_art_title">Медиа-обложка</string>
-    <string name="media_art_summary">Включение медиа-обложки на экране блокировки</string>
-
-    <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Включить фонарик кнопкой включения</string>
-    <string name="torch_power_button_gesture_none">Отключено</string>
-    <string name="torch_power_button_gesture_dt">Двойное нажатие включит фонарик</string>
-    <string name="torch_power_button_gesture_lp">Долгое нажатие включит фонарик</string>
-    
+    <string name="volume_rocker_music_controls_title">Управление проигрыванием</string>
+    <string name="volume_rocker_music_controls_summary">Управление проигрыванием через кнопки громкости</string>
     <!-- Launch music player when headset is connected -->
     <string name="headset_connect_player_title">Запустить плеер</string>
     <string name="headset_connect_player_disabled">Отключено</string>
@@ -117,7 +90,82 @@
     <string name="headset_connect_player_bt">Когда гарнитура BT подключена</string>
     <string name="headset_connect_player_both_no_carkit">Когда проводная или BT-гарнитура (без каркита) подключена</string>
     <string name="headset_connect_player_both">Когда проводная или BT-гарнитура подключена</string>
+    <!-- Volume down enter do not disturb -->
+    <string name="volbtn_down_zen_title">Громкость вниз для \"Не беспокоить\"</string>
+    <string name="volbtn_down_zen_summary">Отключать режим \"Не беспокоить\" при уменьшении громкости</string>
+    <!-- Volume up exit do not disturb -->
+    <string name="volbtn_up_zen_title">Громкость вверх для \"Не беспокоить\"</string>
+    <string name="volbtn_up_zen_summary">Отключать режим \"Не беспокоить\" при увеличении громкости</string>
 
+    <!--
+        ******************************************
+        Navigation Bar
+        ******************************************
+    -->
+    <string name="navbar_title">Панель навигации</string>
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Кнопки на панели навигации</string>
+
+    <!--
+        ******************************************
+        Gestures
+        ******************************************
+    -->
+    <string name="gestures_title">Жесты</string>
+    <string name="double_tap_sleep_navbar">Два раза нажать на навигационную панель для перевода в режим сна</string>
+    <string name="double_tap_sleep_lockscreen_summary_title">Экран блокировки</string>
+    <string name="double_tap_sleep_lockscreen_summary_summary">Нажать на экран блокировки 2 раза для перевода в режим сна</string>
+    <string name="double_tap_sleep_lockscreen_title">Экран блокировки</string>
+    <string name="double_tap_sleep_lockscreen_summary">Дважды коснитесь нижней части экрана блокировки для перевода устройства в спящий режим</string>
+
+    <!--
+        ******************************************
+        Lock Screen
+        ******************************************
+    -->
+    <string name="lockscreen_title">Экран блокировки</string>
+    <!-- Media art -->
+    <string name="media_art_title">Медиа-обложка</string>
+    <string name="media_art_summary">Включение медиа-обложки на экране блокировки</string>
+    <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Ярлыки</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Перемешать цифры</string>
+    <string name="unlock_scramble_pin_layout_summary">Перемешать панель цифр ПИН-кода/пароля на экране блокировки</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка при вводе верного пароля/ПИН-кода</string>
+	
+    <!--
+        ******************************************
+        Power Menu
+        ******************************************
+    -->
+    <string name="powermenu_title">Меню питания</string>
+    <!-- Power menu Animations  -->
+    <string name="power_menu_animation_title">Анимация меню питания</string>
+    <string name="power_menu_animation_dialog_title">Выбрать анимацию меню питания</string>
+    <string name="power_menu_animation_enter">По умолчанию</string>
+    <string name="power_menu_animation_bottom">Внизу</string>
+    <string name="power_menu_animation_top">Сверху</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Включить фонарик кнопкой включения</string>
+    <string name="torch_power_button_gesture_none">Отключено</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие включит фонарик</string>
+    <string name="torch_power_button_gesture_lp">Долгое нажатие включит фонарик</string>
+    <string name="lockscreen_power_menu_disabled_title">Отключить меню питания в экране блокировки</string>
+    <string name="lockscreen_power_menu_disabled_summary">Когда устройство заблокировано меню питания не отображается</string>
+    <string name="global_actions_anim">Настройки меню включения</string>
+    <string name="global_actions_advanced_reboot_title">Включить расширенную перезагрузку</string>
+    <string name="global_actions_advanced_reboot_summary">Включить расширенную перезагрузку</string>
+    <string name="global_actions_advanced_reboot_summary_new">Включить расширенную перезагрузку когда устройство не заблокировано</string>
+
+    <!--
+        ******************************************
+        Recents
+        ******************************************
+    -->
+    <string name="recents_title">Недавние приложения</string>
     <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">Показывать кнопку \"Очистить всё\"</string>
     <string name="show_clear_all_recents_button_summary">Показывать кнопку \"Очистить всё\" в \"Недавних приложениях\"</string>
@@ -129,12 +177,17 @@
     <string name="recents_clear_all_location_bottom_left">Внизу слева</string>
     <string name="recents_clear_all_location_bottom_center">Внизу по центру</string>
 
+    <!--
+        ******************************************
+        Notifications
+        ******************************************
+    -->
+    <string name="notifications_title">Уведомления</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Настройка вибрации при вызове</string>
     <string name="incall_vibrate_connect_title">Вибрировать при ответе</string>
     <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
     <string name="incall_vibrate_disconnect_title">Вибрировать при отбое</string>
-
     <!-- Battery light -->
     <string name="octogen_leds">Индикация</string>
     <string name="octogen_battery_light_settings">Настройки индикатора батареи</string>
@@ -146,49 +199,50 @@
     <string name="battery_light_full_color">Батарея заряжена</string>
     <string name="battery_light_reallyfull_color">Полностью заряжена (100%)</string>
 
-    <string name="lockscreen_power_menu_disabled_title">Отключить меню питания в экране блокировки</string>
-    <string name="lockscreen_power_menu_disabled_summary">Когда устройство заблокировано меню питания не отображается</string>
-
-    <string name="global_actions_anim">Внешность</string>
-    <string name="global_actions_advanced_reboot_title">Включить расширенную перезагрузку</string>
-    <string name="global_actions_advanced_reboot_summary">Включить расширенную перезагрузку</string>
-    <string name="global_actions_advanced_reboot_summary_new">Включить расширенную перезагрузку когда устройство не заблокировано</string>
-
-    <!-- Power menu Animations  -->
-    <string name="power_menu_animation_title">Анимация меню питания</string>
-    <string name="power_menu_animation_dialog_title">Выбрать анимацию меню питания</string>
-    <string name="power_menu_animation_enter">По умолчанию</string>
-    <string name="power_menu_animation_bottom">Внизу</string>
-    <string name="power_menu_animation_top">Сверху</string>
-
-    <!-- SysUI Tuner -->
-    <!-- Status Bar -->
-    <string name="statusbar_items_title">Настройка элементов</string>
-    <string name="power_notification_title">Расширенное управление уведомлениями</string>
-    <!-- Volume down enter do not disturb -->
-    <string name="volbtn_down_zen_title">Громкость вниз для \"Не беспокоить\"</string>
-    <string name="volbtn_down_zen_summary">Отключать режим \"Не беспокоить\" при уменьшении громкости</string>
-    <!-- Volume up exit do not disturb -->
-    <string name="volbtn_up_zen_title">Громкость вверх для \"Не беспокоить\"</string>
-    <string name="volbtn_up_zen_summary">Отключать режим \"Не беспокоить\" при увеличении громкости</string>
-    <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_slider_title">Регулятор яркости</string>
-    <string name="qs_brightness_slider_summary">Показать регулятор яркости в панели быстрых настроек</string>
-    <!-- Lockscreen icons -->
-    <string name="lockscreen_tuner_title">Ярлыки на экране блокировки</string>
-    <!-- Navbar tuner -->
-    <string name="navbar_tuner_title">Кнопки на панели навигации</string>
-
-    <string name="status_bar_logo_title">Логотип в статус баре</string>
-    <string name="status_bar_logo_summary">Небольшая плюшка</string>
-
-    <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Включить ПИН-код</string>
-    <string name="unlock_scramble_pin_layout_summary">Запросить ввод ПИН-кода после графического ключа</string>
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
-    <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка при вводе верного пароля/ПИН-кода</string>
-    
+    <!--
+        ******************************************
+        Misc
+        ******************************************
+    -->
+    <string name="misc_title">Разные настройки</string>
+    <!-- MTP Dirty Hack -->
+    <string name="enable_mtp_dirtyhack_title">MTP вместо Зарядки</string>
+    <string name="enable_mtp_dirtyhack_summary">Включить MTP вместо Зарядки при подключении к ПК</string>
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Блокировка *wakelocks*</string>
+    <string name="wakelock_blocker_summary">Заблокировать *wakelocks* системы</string>
+    <string name="wakelock_blocker_save">Сохранить</string>
+    <string name="wakelock_list_header">Доступные *wakelocks*</string>
+    <string name="wakelock_blocker_reload">Сбросить</string>
+    <string name="wakelock_blocker_warning_title">Продолжайте с осторожностью</string>
+    <string name="wakelock_blocker_warning">Блокировка *wakelocks* может вызвать нестабильную работу, краши и потерю данных</string>
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">Блокировка *alarms*</string>
+    <string name="alarm_blocker_title">Включено</string>
+    <string name="alarm_blocker_summary">Заблокировать *alarms* при выключенном экране</string>
+    <string name="alarm_blocker_save">Сохранить</string>
+    <string name="alarm_list_header">Доступные *alarms*</string>
+    <string name="alarm_blocker_reload">Перезагрузить</string>
+    <string name="alarm_blocker_warning_title">Продолжайте с осторожностью</string>
+    <string name="alarm_blocker_warning">Блокировка *alarms* может вызвать нестабильную работу, краши и потерю данных</string>
     <string name="toast_icon_title">Иконка у всплывающего уведомления</string>
     <string name="toast_icon_summary">Отображать иконку у всплывающего уведомления</string>
+
+    <!--
+        ******************************************
+        About
+        ******************************************
+    -->
+    <string name="about_title">О системе Октоген</string>
+    <string name="build_version">Версия сборки</string>
+    <string name="build_type">Тип сборки</string>
+    <string name="dev_stage_title">Стадия разработки</string>
+    <string name="build_date">Дата сборки</string>
+    <string name="build_user">Сборку собрал</string>
+    <string name="thanks_title">Благодарности</string>
+    <string name="thanks_summary">Чьи работы используются в этом роме</string>
+    <string name="changelog_title">Список изменений</string>
+    <string name="changelog_summary">С момента последнего обновления</string>
+    <string name="changelog_error">Не удается загрузить список изменений</string>
+
 </resources>
